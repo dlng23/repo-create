@@ -1,0 +1,13 @@
+name: Init Workflow - api test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  dummy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo "GitHub Actions initialized!"
